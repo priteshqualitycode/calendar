@@ -59,6 +59,7 @@ export default function calendar({
                         })
                     }
                 ],
+                duration: {days: 20},
                 resources: resources,
                 selectable: dateSelectEnabled,
                 eventStartEditable: eventDragEnabled,
